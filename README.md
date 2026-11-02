@@ -132,6 +132,8 @@ I like turning tedious admin, like tracking job applications or remembering when
 ### ⚡ Recent activity
 
 <!--START_SECTION:activity-->
+1. 🎉 Merged PR [#1](https://github.com/TahaSaiyed08/smta08/pull/1) in [TahaSaiyed08/smta08](https://github.com/TahaSaiyed08/smta08)
+2. 💪 Opened PR [#1](https://github.com/TahaSaiyed08/smta08/pull/1) in [TahaSaiyed08/smta08](https://github.com/TahaSaiyed08/smta08)
 <!--END_SECTION:activity-->
 
 <sub>Updated automatically every 6 hours by a GitHub Action.</sub>
