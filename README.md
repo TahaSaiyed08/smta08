@@ -10,6 +10,13 @@
   <a href="https://github.com/TahaSaiyed08?tab=repositories"><img src="https://img.shields.io/badge/Repositories-181717?style=for-the-badge&logo=github&logoColor=white" alt="Repositories" /></a>
 </p>
 
+<p align="center">
+  <a href="#-right-now">Current focus</a> ·
+  <a href="#-featured-projects">Featured projects</a> ·
+  <a href="#-tech-stack">Tech stack</a> ·
+  <a href="#-experience">Experience</a>
+</p>
+
 ---
 
 ```ts
@@ -28,7 +35,7 @@ I like turning tedious admin, like tracking job applications or remembering when
 
 ### 🔭 Right now
 
-- Building **[LifeOS](https://github.com/smta08/lifeos)**, adding its AI scanning pipeline
+- Building **[LifeOS](https://github.com/TahaSaiyed08/lifeos)**, adding its AI scanning pipeline
 - Looking for a **co-op or internship** for my program
 - Learning Docker, GitHub Actions and AWS
 
@@ -39,7 +46,7 @@ I like turning tedious admin, like tracking job applications or remembering when
 <table>
   <tr>
     <td width="50%" valign="top">
-      <h4><a href="https://github.com/smta08/lifeos">🗂️ LifeOS</a></h4>
+      <h4><a href="https://github.com/TahaSaiyed08/lifeos">🗂️ LifeOS</a></h4>
       <p>Tracks subscriptions, insurance policies and document expiry dates, and warns you before they become a problem.</p>
       <ul>
         <li>In-browser document scanner (pdf.js + OCR): sensitive files never leave your machine</li>
@@ -54,7 +61,7 @@ I like turning tedious admin, like tracking job applications or remembering when
       </p>
     </td>
     <td width="50%" valign="top">
-      <h4><a href="https://github.com/smta08/ApplyFlow">📋 ApplyFlow</a></h4>
+      <h4><a href="https://github.com/TahaSaiyed08/ApplyFlow">📋 ApplyFlow</a></h4>
       <p>Android app for tracking job applications from "applied" to "offer", with interview and follow-up reminders.</p>
       <ul>
         <li>Works fully offline on a local Room database</li>
@@ -125,5 +132,18 @@ I like turning tedious admin, like tracking job applications or remembering when
 ### ⚡ Recent activity
 
 <!--START_SECTION:activity-->
+<!--END_SECTION:activity-->
 
 <sub>Updated automatically every 6 hours by a GitHub Action.</sub>
+
+---
+
+### 🤝 Let’s connect
+
+I’m open to co-op and internship opportunities in software development, QA, data, and IT support.
+
+<p>
+  <a href="mailto:tahasaiyed4@gmail.com">Email me</a> ·
+  <a href="https://www.linkedin.com/in/TahaSaiyed">Connect on LinkedIn</a> ·
+  <a href="https://github.com/TahaSaiyed08?tab=repositories">Browse my repositories</a>
+</p>
