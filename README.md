@@ -31,7 +31,7 @@ const taha = {
 };
 ```
 
-I like turning tedious admin, like tracking job applications or remembering when documents expire, into small, fast tools that don't ask for more of your data than they need. When I'm not shipping code or working shifts at Save-On-Foods, I'm usually on a trail somewhere in BC.
+I like turning tedious admin, like tracking job applications or remembering when documents expire, into small, fast tools that don't ask for more of your data than they need. When I'm not shipping code or I'm usually on a trail somewhere in BC.
 
 ### 🔭 Right now
 
