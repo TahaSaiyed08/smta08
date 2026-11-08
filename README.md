@@ -132,8 +132,8 @@ I like turning tedious admin, like tracking job applications or remembering when
 ### ⚡ Recent activity
 
 <!--START_SECTION:activity-->
-1. 🎉 Merged PR [#4](https://github.com/krish-arora-88/SurRealDeal/pull/4) in [krish-arora-88/SurRealDeal](https://github.com/krish-arora-88/SurRealDeal)
-2. ℹ️ Assigned PR [#4](https://github.com/krish-arora-88/SurRealDeal/pull/4) in [krish-arora-88/SurRealDeal](https://github.com/krish-arora-88/SurRealDeal)
+1. 💪 Opened PR [#17](https://github.com/krish-arora-88/SurRealDeal/pull/17) in [krish-arora-88/SurRealDeal](https://github.com/krish-arora-88/SurRealDeal)
+2. 🎉 Merged PR [#10](https://github.com/krish-arora-88/SurRealDeal/pull/10) in [krish-arora-88/SurRealDeal](https://github.com/krish-arora-88/SurRealDeal)
 <!--END_SECTION:activity-->
 
 <sub>Updated automatically every 6 hours by a GitHub Action.</sub>
