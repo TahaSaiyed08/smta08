@@ -1,13 +1,11 @@
-<h1 align="center">Hi, I'm Taha Saiyed 👋</h1>
-
 <p align="center">
-  <img src="https://readme-typing-svg.demolab.com?font=Fira+Code&weight=500&size=20&pause=1200&color=2DD4BF&center=true&vCenter=true&width=620&lines=Full-stack+developer+in+Vancouver%2C+BC;I+build+privacy-first+tools+for+everyday+admin;Next.js+%C2%B7+TypeScript+%C2%B7+Java+%C2%B7+Spring+Boot;Open+to+co-op+and+internship+roles" alt="Full-stack developer in Vancouver, BC. I build privacy-first tools for everyday admin." />
+  <picture><source media="(prefers-color-scheme: dark)" srcset="assets/profile-hero-dark.svg"><img src="assets/profile-hero-light.svg" alt="Hi, I'm Taha Saiyed. Full-stack developer in Vancouver, BC. I build privacy-first tools for everyday admin. Next.js, TypeScript, Java, Spring Boot. Open to co-op and internship roles." width="100%"></picture>
 </p>
 
 <p align="center">
-  <a href="https://www.linkedin.com/in/TahaSaiyed"><img src="https://img.shields.io/badge/LinkedIn-0A66C2?style=for-the-badge&logo=linkedin&logoColor=white" alt="LinkedIn" /></a>
-  <a href="mailto:tahasaiyed4@gmail.com"><img src="https://img.shields.io/badge/Email-EA4335?style=for-the-badge&logo=gmail&logoColor=white" alt="Email" /></a>
-  <a href="https://github.com/TahaSaiyed08?tab=repositories"><img src="https://img.shields.io/badge/Repositories-181717?style=for-the-badge&logo=github&logoColor=white" alt="Repositories" /></a>
+  <a href="https://github.com/TahaSaiyed08?tab=repositories"><picture><source media="(prefers-color-scheme: dark)" srcset="assets/button-github-dark.svg"><img src="assets/button-github-light.svg" alt="GitHub: browse my repositories" width="125"></picture></a>
+  &nbsp;
+  <a href="https://www.linkedin.com/in/taha-saiyed/"><picture><source media="(prefers-color-scheme: dark)" srcset="assets/button-linkedin-dark.svg"><img src="assets/button-linkedin-light.svg" alt="LinkedIn" width="144"></picture></a>
 </p>
 
 <p align="center">
@@ -35,13 +33,30 @@ I like turning tedious admin, like tracking job applications or remembering when
 
 ### 🔭 Right now
 
+<p align="center">
+  <picture><source media="(prefers-color-scheme: dark)" srcset="assets/currently-telemetry-dark.svg"><img src="assets/currently-telemetry-light.svg" alt="Right now: building LifeOS and adding its AI scanning pipeline; looking for a co-op or internship for my program; learning Docker, GitHub Actions and AWS." width="100%"></picture>
+</p>
+
 - Building **[LifeOS](https://github.com/TahaSaiyed08/lifeos)**, adding its AI scanning pipeline
 - Looking for a **co-op or internship** for my program
 - Learning Docker, GitHub Actions and AWS
 
----
+<picture><source media="(prefers-color-scheme: dark)" srcset="assets/section-divider-dark.svg"><img src="assets/section-divider-light.svg" alt="" width="100%"></picture>
 
 ### 🚀 Featured projects
+
+<table>
+  <tr>
+    <td width="50%"><a href="https://github.com/TahaSaiyed08/soma18-showcase"><picture><source media="(prefers-color-scheme: dark)" srcset="assets/card-soma18-dark.svg"><img src="assets/card-soma18-light.svg" alt="Soma18, featured client work: website, hosting and online store for a daily 18-minute mind-body practice. Live at soma18.ca." width="100%"></picture></a></td>
+    <td width="50%"><a href="https://github.com/TahaSaiyed08/lifeos"><picture><source media="(prefers-color-scheme: dark)" srcset="assets/card-lifeos-dark.svg"><img src="assets/card-lifeos-light.svg" alt="LifeOS: tracks subscriptions, insurance policies and document expiry dates, and warns you before they become a problem." width="100%"></picture></a></td>
+  </tr>
+  <tr>
+    <td width="50%"><a href="https://github.com/TahaSaiyed08/tersa"><picture><source media="(prefers-color-scheme: dark)" srcset="assets/card-tersa-dark.svg"><img src="assets/card-tersa-light.svg" alt="Tersa: a compact, type-safe programming language built for AI-written code. Compiles to Python." width="100%"></picture></a></td>
+    <td width="50%"><a href="https://github.com/TahaSaiyed08/Savy"><picture><source media="(prefers-color-scheme: dark)" srcset="assets/card-savy-dark.svg"><img src="assets/card-savy-light.svg" alt="Savy, built at HackCamp 2026: matches what you actually buy to this week's grocery flyers and finds the cheapest store for your basket." width="100%"></picture></a></td>
+  </tr>
+</table>
+
+**[Soma18](https://github.com/TahaSaiyed08/soma18-showcase):** I built and maintain the website, hosting and online store for Soma18. Live at [soma18.ca](https://soma18.ca).
 
 <table>
   <tr>
@@ -53,12 +68,7 @@ I like turning tedious admin, like tracking job applications or remembering when
         <li>Read-only Gmail scan that keeps the facts it needs and discards the email</li>
         <li>Per-user data isolation with Postgres row-level security</li>
       </ul>
-      <p>
-        <img src="https://img.shields.io/badge/Next.js-000000?style=flat-square&logo=nextdotjs&logoColor=white" alt="Next.js" />
-        <img src="https://img.shields.io/badge/TypeScript-3178C6?style=flat-square&logo=typescript&logoColor=white" alt="TypeScript" />
-        <img src="https://img.shields.io/badge/Supabase-3FCF8E?style=flat-square&logo=supabase&logoColor=white" alt="Supabase" />
-        <img src="https://img.shields.io/badge/Prisma-2D3748?style=flat-square&logo=prisma&logoColor=white" alt="Prisma" />
-      </p>
+      <p><sub>Next.js · TypeScript · Supabase · Prisma</sub></p>
     </td>
     <td width="50%" valign="top">
       <h4><a href="https://github.com/TahaSaiyed08/ApplyFlow">📋 ApplyFlow</a></h4>
@@ -68,11 +78,7 @@ I like turning tedious admin, like tracking job applications or remembering when
         <li>Scheduled reminders with WorkManager</li>
         <li>Stats by status and month, plus CSV export</li>
       </ul>
-      <p>
-        <img src="https://img.shields.io/badge/Java-ED8B00?style=flat-square&logo=openjdk&logoColor=white" alt="Java" />
-        <img src="https://img.shields.io/badge/Android-3DDC84?style=flat-square&logo=android&logoColor=white" alt="Android" />
-        <img src="https://img.shields.io/badge/SQLite_(Room)-003B57?style=flat-square&logo=sqlite&logoColor=white" alt="SQLite (Room)" />
-      </p>
+      <p><sub>Java · Android · SQLite (Room)</sub></p>
     </td>
   </tr>
   <tr>
@@ -84,10 +90,7 @@ I like turning tedious admin, like tracking job applications or remembering when
         <li>Node.js API with role-based access for patients, caregivers and admins</li>
         <li>Finished two weeks early, scored 98%</li>
       </ul>
-      <p>
-        <img src="https://img.shields.io/badge/MySQL-4479A1?style=flat-square&logo=mysql&logoColor=white" alt="MySQL" />
-        <img src="https://img.shields.io/badge/Node.js-339933?style=flat-square&logo=nodedotjs&logoColor=white" alt="Node.js" />
-      </p>
+      <p><sub>MySQL · Node.js</sub></p>
     </td>
     <td width="50%" valign="top">
       <h4>🏆 Vision2Reality Hackathon: 3rd place</h4>
@@ -100,14 +103,16 @@ I like turning tedious admin, like tracking job applications or remembering when
   </tr>
 </table>
 
----
+<picture><source media="(prefers-color-scheme: dark)" srcset="assets/section-divider-dark.svg"><img src="assets/section-divider-light.svg" alt="" width="100%"></picture>
 
 ### 🛠️ Tech stack
 
 <p align="center">
-  <img src="https://skillicons.dev/icons?i=js,ts,java,c,html,css,react,nextjs,tailwind&theme=dark" alt="JavaScript, TypeScript, Java, C, HTML, CSS, React, Next.js, Tailwind" /><br/>
-  <img src="https://skillicons.dev/icons?i=nodejs,spring,mysql,postgres,mongodb,sqlite,supabase,vercel,git&theme=dark" alt="Node.js, Spring, MySQL, PostgreSQL, MongoDB, SQLite, Supabase, Vercel, Git" />
+  <picture><source media="(prefers-color-scheme: dark)" srcset="assets/skills-matrix-dark.svg"><img src="assets/skills-matrix-light.svg" alt="Languages: JavaScript (ES6+), TypeScript, Java, SQL, C/C++, HTML, CSS. Frontend: React, Next.js 14 (App Router), Tailwind CSS, TanStack Query. Backend: Node.js, Spring Boot, REST APIs, Prisma, JPA/Hibernate. Data and cloud: PostgreSQL, MySQL, MongoDB, SQLite, Supabase, Vercel, Git." width="100%"></picture>
 </p>
+
+<details>
+<summary>Text version</summary>
 
 | | |
 |---|---|
@@ -115,6 +120,8 @@ I like turning tedious admin, like tracking job applications or remembering when
 | **Frontend** | React, Next.js 14 (App Router), Tailwind CSS, TanStack Query |
 | **Backend** | Node.js, Spring Boot, REST APIs, Prisma, JPA/Hibernate |
 | **Data & cloud** | PostgreSQL, MySQL, MongoDB, Supabase, Vercel |
+
+</details>
 
 ---
 
@@ -145,7 +152,6 @@ I like turning tedious admin, like tracking job applications or remembering when
 I’m open to co-op and internship opportunities in software development, QA, data, and IT support.
 
 <p>
-  <a href="mailto:tahasaiyed4@gmail.com">Email me</a> ·
-  <a href="https://www.linkedin.com/in/TahaSaiyed">Connect on LinkedIn</a> ·
+  <a href="https://www.linkedin.com/in/taha-saiyed/">Connect on LinkedIn</a> ·
   <a href="https://github.com/TahaSaiyed08?tab=repositories">Browse my repositories</a>
 </p>

@@ -1,0 +1,25 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="1200" height="12" viewBox="0 0 1200 12" role="img" aria-labelledby="t d">
+<title id="t">Divider</title>
+<desc id="d">A thin line with a light that sweeps across it in both directions.</desc>
+<style>
+.sans{font-family:-apple-system, BlinkMacSystemFont, 'Inter', 'Segoe UI', Roboto, sans-serif}
+.mono{font-family:ui-monospace, SFMono-Regular, 'SF Mono', Menlo, Consolas, monospace}
+.static{display:none}
+
+.s1{animation:s1 9s cubic-bezier(0.45,0,0.55,1) infinite}.s2{animation:s2 9s cubic-bezier(0.45,0,0.55,1) infinite}
+@keyframes s1{0%{transform:translateX(0)}50%,100%{transform:translateX(1460px)}}
+@keyframes s2{0%,50%{transform:translateX(0)}100%{transform:translateX(-1400px)}}
+
+@media (prefers-reduced-motion: reduce){
+  *{animation:none !important;transition:none !important}
+  .smil{display:none !important}
+  .static{display:inline !important}
+  
+}
+</style>
+<defs>
+<linearGradient id="spec" x1="0" y1="0" x2="1" y2="0"><stop offset="0" stop-color="#FFFFFF" stop-opacity="0"/><stop offset="0.5" stop-color="#FFFFFF" stop-opacity="0.34"/><stop offset="1" stop-color="#FFFFFF" stop-opacity="0"/></linearGradient>
+<linearGradient id="scan" x1="0" y1="0" x2="1" y2="0"><stop offset="0" stop-color="#5FC2C6" stop-opacity="0"/><stop offset="0.5" stop-color="#5FC2C6"/><stop offset="1" stop-color="#5FC2C6" stop-opacity="0"/></linearGradient><linearGradient id="scan2" x1="0" y1="0" x2="1" y2="0"><stop offset="0" stop-color="#F0B33C" stop-opacity="0"/><stop offset="0.5" stop-color="#F0B33C"/><stop offset="1" stop-color="#F0B33C" stop-opacity="0"/></linearGradient>
+</defs>
+<rect x="0" y="5.5" width="1200" height="1" fill="#2A3742"/><rect class="s1" x="-260" y="5" width="260" height="2" fill="url(#scan)"/><rect class="s2" x="1200" y="5" width="200" height="2" fill="url(#scan2)"/><rect class="static" x="470" y="5" width="260" height="2" fill="url(#scan)"/>
+</svg>

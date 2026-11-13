@@ -1,0 +1,26 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="137" height="44" viewBox="0 0 137 44" role="img" aria-labelledby="t d">
+<title id="t">GitHub</title>
+<desc id="d">A button that says GitHub.</desc>
+<style>
+.sans{font-family:-apple-system, BlinkMacSystemFont, 'Inter', 'Segoe UI', Roboto, sans-serif}
+.mono{font-family:ui-monospace, SFMono-Regular, 'SF Mono', Menlo, Consolas, monospace}
+.static{display:none}
+.trace{animation:trace 6s linear infinite}@keyframes trace{to{stroke-dashoffset:-100}}
+@media (prefers-reduced-motion: reduce){
+  *{animation:none !important;transition:none !important}
+  .smil{display:none !important}
+  .static{display:inline !important}
+  
+}
+</style>
+<defs>
+<linearGradient id="spec" x1="0" y1="0" x2="1" y2="0"><stop offset="0" stop-color="#FFFFFF" stop-opacity="0"/><stop offset="0.5" stop-color="#FFFFFF" stop-opacity="0.95"/><stop offset="1" stop-color="#FFFFFF" stop-opacity="0"/></linearGradient>
+
+</defs>
+<rect x="0.5" y="0.5" width="136" height="43" rx="12" fill="#F6F7F3" stroke="#CFD6CF"/>
+<rect x="14" y="0.5" width="109" height="1" fill="url(#spec)"/>
+<rect class="trace" x="0.5" y="0.5" width="136" height="43" rx="12" fill="none" stroke="#0E6569" stroke-width="1.5" pathLength="100" stroke-dasharray="12 88" stroke-linecap="round"/>
+<g transform="translate(16 12) scale(0.8333333333333334)" fill="none" stroke="#0E6569" stroke-width="1.800" stroke-linecap="round" stroke-linejoin="round" class="" ><path d="M8.5 7L3.5 12l5 5M15.5 7l5 5-5 5M13.5 4.5l-3 15"/></g>
+<text class="sans" x="46" y="27.5" font-size="15.5" font-weight="650" fill="#16211F">GitHub</text>
+<path d="M117 17l5 5-5 5" fill="none" stroke="#55625F" stroke-width="1.5" stroke-linecap="round" stroke-linejoin="round"/>
+</svg>

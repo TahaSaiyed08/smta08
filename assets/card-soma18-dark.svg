@@ -1,0 +1,72 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="588" height="236" viewBox="0 0 588 236" role="img" aria-labelledby="t d">
+<title id="t">Soma18</title>
+<desc id="d">Soma18, featured client work. Website, hosting and online store for a daily 18-minute mind-body practice. Live at soma18.ca. TypeScript on Cloudflare.</desc>
+<style>
+.sans{font-family:-apple-system, BlinkMacSystemFont, 'Inter', 'Segoe UI', Roboto, sans-serif}
+.mono{font-family:ui-monospace, SFMono-Regular, 'SF Mono', Menlo, Consolas, monospace}
+.static{display:none}
+
+.breath{transform-box:fill-box;transform-origin:center;animation:breath 18s cubic-bezier(0.45,0,0.55,1) infinite}
+@keyframes breath{0%,100%{transform:scale(1)}45%{transform:scale(1.045)}55%{transform:scale(1.045)}}
+.orbA{animation:orbA 9s linear infinite}.orbB{animation:orbB 12s linear infinite}
+@keyframes orbA{to{stroke-dashoffset:-100}}@keyframes orbB{to{stroke-dashoffset:100}}
+
+.lev{animation:lev 6s ease-in-out infinite alternate}@keyframes lev{from{transform:translateY(-2.5px)}to{transform:translateY(2.5px)}}
+.trace{animation:trace 9s linear infinite}@keyframes trace{to{stroke-dashoffset:-100}}
+.al{transform-box:fill-box;transform-origin:center;animation:al 3s ease-in-out infinite}.al1{animation-delay:.4s}.al2{animation-delay:.8s}.al3{animation-delay:1.2s}
+@keyframes al{0%,100%{opacity:.35;transform:scale(.8)}50%{opacity:1;transform:scale(1.15)}}
+.sw{animation:sw 6s cubic-bezier(0.22, 1, 0.36, 1) infinite}@keyframes sw{0%{transform:translateY(0);opacity:0}10%{opacity:.9}80%{transform:translateY(126px);opacity:.9}100%{transform:translateY(126px);opacity:0}}
+.tok{transform-box:fill-box;transform-origin:left center;animation:tok 6s cubic-bezier(0.22, 1, 0.36, 1) infinite}@keyframes tok{0%{transform:scaleX(0);opacity:0}8%{transform:scaleX(1);opacity:1}80%{transform:scaleX(1);opacity:1}100%{transform:scaleX(1);opacity:0}}
+.bar{transform-box:fill-box;transform-origin:center bottom;animation:bar 6s cubic-bezier(0.22, 1, 0.36, 1) infinite}@keyframes bar{0%{transform:scaleY(.15)}18%,88%{transform:scaleY(1)}100%{transform:scaleY(.15)}}
+.chk2{transform-box:fill-box;transform-origin:center;animation:ck2 6s cubic-bezier(0.22, 1, 0.36, 1) infinite}@keyframes ck2{0%,22%{transform:scale(0)}30%{transform:scale(1.2)}36%,88%{transform:scale(1)}100%{transform:scale(0)}}
+
+@media (prefers-reduced-motion: reduce){
+  *{animation:none !important;transition:none !important}
+  .smil{display:none !important}
+  .static{display:inline !important}
+  .sw{opacity:0}
+}
+</style>
+<defs>
+<linearGradient id="spec" x1="0" y1="0" x2="1" y2="0"><stop offset="0" stop-color="#FFFFFF" stop-opacity="0"/><stop offset="0.5" stop-color="#FFFFFF" stop-opacity="0.34"/><stop offset="1" stop-color="#FFFFFF" stop-opacity="0"/></linearGradient>
+<radialGradient id="mglow"><stop offset="0" stop-color="#5FC2C6" stop-opacity="0.55"/><stop offset="0.55" stop-color="#5FC2C6" stop-opacity="0.08"/><stop offset="1" stop-color="#5FC2C6" stop-opacity="0"/></radialGradient>
+</defs>
+<g class="lev" style="animation-delay:0.0s">
+<rect x="6" y="14" width="576" height="214" rx="12" fill="#0A0E12"/>
+<rect x="6" y="7" width="576" height="214" rx="12" fill="#0F151B" stroke="#2A3742"/>
+<rect x="20" y="7" width="548" height="1" fill="url(#spec)"/>
+<rect class="trace" x="6" y="7" width="576" height="214" rx="12" fill="none" stroke="#5FC2C6" stroke-width="1.5" pathLength="100" stroke-dasharray="10 90" stroke-linecap="round" style="animation-delay:0.0s"/>
+<rect x="382" y="27" width="182" height="174" rx="6" fill="#161F27" stroke="#2A3742"/>
+<g transform="translate(473 114)"><g class="smil"><g transform="scale(0.52)">
+<circle r="150" fill="url(#mglow)"/>
+<g transform="rotate(-24)"><ellipse rx="132" ry="44" fill="none" stroke="#2A3742" stroke-width="1"/><ellipse class="orbA" rx="132" ry="44" fill="none" stroke="#5FC2C6" stroke-width="1.5" pathLength="100" stroke-dasharray="14 86" stroke-linecap="round"/><circle r="3.2" fill="#5FC2C6"><animateMotion dur="9s" repeatCount="indefinite" keyPoints="0;1" keyTimes="0;1" calcMode="linear" path="M-132 0a132 44 0 1 0 264 0a132 44 0 1 0 -264 0"/></circle></g>
+<g transform="rotate(24)"><ellipse rx="132" ry="44" fill="none" stroke="#2A3742" stroke-width="1"/><ellipse class="orbB" rx="132" ry="44" fill="none" stroke="#F0B33C" stroke-width="1.5" pathLength="100" stroke-dasharray="9 91" stroke-linecap="round"/><circle r="3.2" fill="#F0B33C"><animateMotion dur="12s" repeatCount="indefinite" keyPoints="1;0" keyTimes="0;1" calcMode="linear" path="M-132 0a132 44 0 1 0 264 0a132 44 0 1 0 -264 0"/></circle></g>
+<g class="breath">
+<circle r="112" fill="none" stroke="#2A3742" stroke-width="1"/>
+<g><circle r="112" fill="none" stroke="#5FC2C6" stroke-width="1.5" pathLength="180" stroke-dasharray="6.667 3.333" opacity="0.9"/><animateTransform attributeName="transform" type="rotate" calcMode="spline" keyTimes="0;1" keySplines="0.45 0 0.55 1" values="0;360" dur="36s" repeatCount="indefinite"/></g>
+<g><circle r="98" fill="none" stroke="#9AA7A6" stroke-width="1" pathLength="180" stroke-dasharray="0.6 4.4" opacity="0.8"/><animateTransform attributeName="transform" type="rotate" values="0;-360" dur="54s" repeatCount="indefinite"/></g>
+<g><circle r="84" fill="none" stroke="#F0B33C" stroke-width="1.5" pathLength="180" stroke-dasharray="45 15" stroke-linecap="round"/><animateTransform attributeName="transform" type="rotate" calcMode="spline" keyTimes="0;1" keySplines="0.45 0 0.55 1" values="0;-360" dur="18s" repeatCount="indefinite"/></g>
+<circle r="66" fill="#161F27" stroke="#2A3742" stroke-width="1"/>
+<path d="M-46.7 -46.7A66 66 0 0 1 46.7 -46.7" fill="none" stroke="url(#spec)" stroke-width="1"/>
+<text class="sans" y="24" text-anchor="middle" font-size="68" font-weight="700" letter-spacing="-2" fill="#E8EAE5">18</text>
+</g>
+</g></g><g class="static"><g transform="scale(0.52)">
+<circle r="150" fill="url(#mglow)"/>
+<g transform="rotate(-24)"><ellipse rx="132" ry="44" fill="none" stroke="#2A3742" stroke-width="1"/><ellipse class="orbA" rx="132" ry="44" fill="none" stroke="#5FC2C6" stroke-width="1.5" pathLength="100" stroke-dasharray="14 86" stroke-linecap="round"/><circle cx="93" cy="31" r="3.2" fill="#5FC2C6"/></g>
+<g transform="rotate(24)"><ellipse rx="132" ry="44" fill="none" stroke="#2A3742" stroke-width="1"/><ellipse class="orbB" rx="132" ry="44" fill="none" stroke="#F0B33C" stroke-width="1.5" pathLength="100" stroke-dasharray="9 91" stroke-linecap="round"/><circle cx="-93" cy="31" r="3.2" fill="#F0B33C"/></g>
+<g class="breath">
+<circle r="112" fill="none" stroke="#2A3742" stroke-width="1"/>
+<g><circle r="112" fill="none" stroke="#5FC2C6" stroke-width="1.5" pathLength="180" stroke-dasharray="6.667 3.333" opacity="0.9"/></g>
+<g><circle r="98" fill="none" stroke="#9AA7A6" stroke-width="1" pathLength="180" stroke-dasharray="0.6 4.4" opacity="0.8"/></g>
+<g><circle r="84" fill="none" stroke="#F0B33C" stroke-width="1.5" pathLength="180" stroke-dasharray="45 15" stroke-linecap="round"/></g>
+<circle r="66" fill="#161F27" stroke="#2A3742" stroke-width="1"/>
+<path d="M-46.7 -46.7A66 66 0 0 1 46.7 -46.7" fill="none" stroke="url(#spec)" stroke-width="1"/>
+<text class="sans" y="24" text-anchor="middle" font-size="68" font-weight="700" letter-spacing="-2" fill="#E8EAE5">18</text>
+</g>
+</g></g></g>
+<text class="mono" x="34" y="48" font-size="11" letter-spacing="2" fill="#5FC2C6">FEATURED · CLIENT WORK</text>
+<text class="sans" x="33" y="86" font-size="30" font-weight="700" letter-spacing="-0.6" fill="#E8EAE5">Soma18</text>
+<text class="sans" x="34" y="116" font-size="15" fill="#9AA7A6">Website, hosting and online store</text><text class="sans" x="34" y="138" font-size="15" fill="#9AA7A6">for a daily 18-minute mind-body</text><text class="sans" x="34" y="160" font-size="15" fill="#9AA7A6">practice. Live at soma18.ca.</text>
+<circle cx="39" cy="198" r="5" fill="#5FC2C6"/><text class="mono" x="52" y="202.5" font-size="12" letter-spacing="0.4" fill="#9AA7A6">TypeScript · Cloudflare</text>
+</g>
+</svg>
